@@ -55,6 +55,9 @@ namespace GiphyAPITest
 
                 List<Gif> gifs = proxy.SearchGigphy(txtSearch.Text);
 
+
+
+
                 channel.Close();
                 SearchesGipfy.Add(txtSearch.Text, gifs);
                 DataTable table = new DataTable();
